@@ -1,10 +1,7 @@
 <?php
+include_once ("php/include/class.TemplatePower.inc.php");
 
-
-print "Even een GIT test";
-/**
- * Created by PhpStorm.
- * User: Marcel
- * Date: 6-2-2017
- * Time: 13:06
- */
+include("php/header.php");
+include("php/content.php");
+include("php/aside.php");
+include("php/footer.php");
